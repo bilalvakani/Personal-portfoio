@@ -123,7 +123,7 @@ const Navbar = () => {
         </Link>
 
         <Link
-          to="services"
+          to="service"
           spy={true}
           smooth={true}
           duration={500}

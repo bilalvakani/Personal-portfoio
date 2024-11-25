@@ -8,6 +8,8 @@ import About from './Components/About'
 import Service from './Components/Service'
 import Education from './Components/Education'
 import Experince from './Components/Experince'
+import Footer from './Components/Footer.JSX'
+import Portfolio from './Components/Portfolio'
 
 function App() {
 
@@ -30,7 +32,11 @@ function App() {
         <div id="experience">
           <Experince />
         </div>
+        <div id="portfolio">
+          <Portfolio />
+        </div>
         </main>
+        <Footer/>
 </div>
   )
 }
